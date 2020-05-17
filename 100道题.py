@@ -122,3 +122,37 @@ import numpy as np
 # 24. 一个5x3的矩阵与一个3x2的矩阵相乘，实矩阵乘积是什么
 # z=np.dot(np.ones((5,3)),np.ones((3,2)))
 # print(z)
+
+# 25. 给定一个一维数组，对其在3到8之间的所有元素取反
+# z=np.arange(11)
+# z[(3<z)&(z<=8)]*=-1
+# print(z)
+
+# 26. 下面脚本运行后的结果是什么
+# print(sum(range(5),-1))
+# range(5)
+# from numpy import *
+# print(sum(range(5),-1))
+# range(5)
+
+# 27. 考虑一个整数向量Z,下列表达合法的是哪个
+# Z**Z
+# 2 << Z >> 2
+# Z <- Z
+# 1j*Z
+# Z/1/1
+# Z<Z>Z
+
+# 28. 下列表达式的结果分别是什么
+# print(np.array(0) / np.array(0))
+# print(np.array(0) // np.array(0))
+
+# 29. 如何从零位对浮点数组做舍入
+# z=np.random.uniform(-10,+10,10)
+# print(z)
+# print(np.copysign(np.ceil(np.abs(z)),z))
+
+# 30. 如何找到两个数组中的共同元素
+# z1=np.random.randint(0,10,10)
+# z2=np.random.randint(0,10,10)
+# print(np.intersect1d(z1,z2))

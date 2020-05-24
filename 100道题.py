@@ -156,3 +156,5 @@ import numpy as np
 # z1=np.random.randint(0,10,10)
 # z2=np.random.randint(0,10,10)
 # print(np.intersect1d(z1,z2))
+
+
